@@ -199,3 +199,5 @@ which; the plan for it starts by saying so.
 - 🚧 `docs/parity-audit-automation` · Update the parity-audit skill to run the detailed shared audit: all commands/options/defaults, MCP schemas/configured visibility, source registrations, fresh tests/coverage and synthetic consumer scenarios. Shared tooling claim: `feat/deep-parity-audit`. No account access.
 
 - 🚧 `refactor/parity-local-commands` · Shared sends-list factory honors configured limit; shared skill factory exposes named link-conversations instructions. Local reads only; P7 remains owned separately.
+
+- 🚧 `refactor/parity-account-reads` · Shared account-show factory with retained MAX profile fields and safe contact-lookup argv refusal. Permission runtime remains with T6/P7.
