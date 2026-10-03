@@ -165,7 +165,7 @@ read only on an explicit flag (`CLI-33`, REQUIREMENTS §19).
 - **CLI-62** · P3 · `chats show` notes «only 2 of 3 members could be read» when the list is complete:
   `members` leaves out the account itself, `participantsCount` counts it. cli-messaging,
   `chats-command.ts` `show`.
-- **CLI-63** · P3 · The shared `messages list --transcribe` fetches a voice message on a second
+- **CLI-63** · P3 · 🚧 `fix/hearing-review` · The shared `messages list --transcribe` fetches a voice message on a second
   connection after the read's own closes — a second MAX login with `--no-serve`. Keep the read's
   connection until the download is done. cli-messaging `hearing-command.ts`.
 
